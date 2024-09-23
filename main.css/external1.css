@@ -127,8 +127,8 @@ html{
    width: 60px;
    border-radius: 100px;
    margin-left: 2px;
-   animation:mylogo 2s;
-   animation-iteration-count: infinite;
+   animation:mylogo 10s;
+   
 }
 @keyframes mylogo{
     from{opacity: 0;}
