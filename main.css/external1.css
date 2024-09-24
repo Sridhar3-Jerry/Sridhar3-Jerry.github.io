@@ -188,7 +188,7 @@ html{
 .about_main,.skill_main{
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
     margin-top: 50px;
@@ -283,6 +283,8 @@ h1{
     font-weight: 400;
     color: #ffffff;
     margin-bottom: 100px;
+    text-wrap:wrap;
+    /* margin-left: 80px; */
 }
  .about_paragraph h1{
     text-align: center;
