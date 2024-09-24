@@ -259,13 +259,27 @@ h1{
     /* border: #e14014 solid 10px;
     border-radius: 7%; */
 }
-.skill_main .skillsimg0:hover{
+
+span a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 100px;
+    color: white;
+    
+}
+
+
+
+
+
+
+.skill_main span a,.skillsimg0:hover{
     cursor: pointer;
     background-color: white;
     color: black;
     box-shadow: 10px 10px 15px 10px rgb(17, 7, 7);
     width: 300px;
-    height: 350px;
+    height: 400px;
     transform: rotate(360deg);
 }
 
