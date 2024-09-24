@@ -34,6 +34,10 @@
     margin-right: 30px;  
     font-size: 15px;
    }
+   #about_main1 .about_paragraph{
+    width: 100%;
+    font-size: 20px;
+   }
 
 
 }
@@ -283,7 +287,8 @@ h1{
     font-weight: 400;
     color: #ffffff;
     margin-bottom: 100px;
-    text-wrap:wrap;
+    width: 50%;
+
     /* margin-left: 80px; */
 }
  .about_paragraph h1{
