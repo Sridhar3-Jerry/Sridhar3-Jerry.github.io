@@ -240,13 +240,13 @@ h1{
 
 
 /* skill page */
- .skill_main div{
+ .skill_main .skillsimg0{
     text-align: center;
     font-size: 50px;
     font-weight: 800;
     color: rgba(241, 234, 234, 0.991);
     border-radius: 10px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     transition: 3s;
     transform: 2s;
 
@@ -258,6 +258,18 @@ h1{
     margin-top: 20px;
     /* border: #e14014 solid 10px;
     border-radius: 7%; */
+}
+.bar{
+    background-color: #e14014;
+    height: 20px;
+    width: 100%;
+}
+.barcolor4{
+    background-color: #131212;
+    width: 60%;
+    height: 20px;
+    color: #ffffff;
+    font-size: 0%;
 }
 
 span a{
@@ -290,11 +302,6 @@ span a{
     height: 400px;
     border-radius: 200px;
     box-shadow: 0px 0px 10px 10px;
-    animation: box 2s;
-
-}
-@keyframes box{
-   
 }
 .about_paragraph{
     font-size:xx-large;
