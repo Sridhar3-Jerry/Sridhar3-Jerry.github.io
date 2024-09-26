@@ -216,11 +216,11 @@ html{
 .paragraph {
     text-align: center;
     line-height: 70px; 
-    animation: para 5s;
+    animation: para 3s;
 }
 @keyframes para{
     from{width: 0%;}
-    to{width: 60%;}
+    to{width: 100%;}
 }
 h1{
     font-size: 30px;
@@ -381,6 +381,7 @@ span a{
     width: 400px;
     height: 500px;
     font-size:small;
+    transition: 2s;
 }
 .form1 input, textarea{
     width: 300px;
@@ -394,6 +395,7 @@ span a{
     background-color: rgb(5, 10, 5);
     color: white;
     margin-left: 20px;
+
     /* cursor: pointer; */
 }
 .button1:hover{
@@ -405,7 +407,6 @@ span a{
     background-color: rgb(238, 255, 127);
     box-shadow: 5px 5px 20px 30px rgb(14, 14, 14);
     width:450px ;
-    height: 510px;
-    transition: 2s;
-    position: sticky;
+    height: 500px;
+   
 }
