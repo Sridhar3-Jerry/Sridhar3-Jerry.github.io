@@ -102,7 +102,7 @@ html{
     scroll-behavior: smooth;
 }
 #home{
-    background-image: url(../assets/HOME.jpg);
+    background-image: url(../assets/images/HOME.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
     height: 100vh;
@@ -161,14 +161,14 @@ html{
 #skills,#about{
     background-size:cover ;
     background-repeat: no-repeat;
-    background-image: url(../assets/HOME.jpg);
+    background-image: url(../assets/images/HOME.jpg);
     
 
 }
 #contact{
     background-size:cover ;
     background-repeat: no-repeat;
-    background-image: url(../assets/HOME.jpg);
+    background-image: url(../assets/images/HOME.jpg);
     display: grid;
     grid-template-rows: 85vh 10vh 5vh;
 
